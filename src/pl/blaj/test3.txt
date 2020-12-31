@@ -1,0 +1,12 @@
+elementów posortowanych 1000000:
+
+dodano 50:
+insertion - 65ms
+merge - 135ms
+
+dodano 100:
+insertion - 95ms
+merge - 120ms
+
+dodano 150:
+czasy takie same 150ms

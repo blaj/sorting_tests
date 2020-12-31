@@ -1,0 +1,26 @@
+// RANDOM NUMBERS
+// bubble - 1s - 25000
+// insertion - 1s - 100000
+// merge - 1s - 5300000
+
+// bubble - 1m - 200000
+// insertion - 1m - 800000
+// merge - 1m - 300000000
+
+// SORT NUMBERS
+// bubble - 1s - 100000
+// insertion - 1s - 1050000000 | 2s - 2100000000
+// merge - 1s - 12000000
+
+// bubble - 1m - 680000
+// insertion - 1m -
+// merge - 1m - 800000000
+
+// INVERT SORT NUMBERS
+// bubble - 1s - 100000
+// insertion - 1s - 1050000000
+// merge - 1s - 12000000
+
+// bubble - 1m - 680000
+// insertion - 1m -
+// merge - 1m - 800000000
