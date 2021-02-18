@@ -4,16 +4,16 @@ import java.util.Arrays;
 
 public class Main {
 
-  private static final int NUMBERS_COUNT = ;
+  private static final int NUMBERS_COUNT = 520000;
   private static final int MIN_RANGE = -9999999;
   private static final int MAX_RANGE = 9999999;
 
   public static void main(String[] args) {
     var main = new Main();
 
-//    main.randomData();
-//    main.sortData();
-//    main.invertSortData();
+    main.randomData();
+    main.sortData();
+    main.invertSortData();
     main.addRandomNumbersToSort();
   }
 
@@ -23,9 +23,9 @@ public class Main {
     var data3 = data.clone();
 
     Timer.start();
-    BubbleSort.sort(data);
+    SelectionSort.sort(data);
     Timer.end();
-    System.out.print("Bubble sort: ");
+    System.out.print("Selection sort: ");
     Timer.printElapsedTime();
 
     Timer.start();
@@ -47,9 +47,9 @@ public class Main {
     var data3 = data.clone();
 
     Timer.start();
-    BubbleSort.sort(data);
+    SelectionSort.sort(data);
     Timer.end();
-    System.out.print("Bubble sort: ");
+    System.out.print("Selection sort: ");
     Timer.printElapsedTime();
 
     Timer.start();
@@ -71,9 +71,9 @@ public class Main {
     var data3 = data.clone();
 
     Timer.start();
-    BubbleSort.sort(data);
+    SelectionSort.sort(data);
     Timer.end();
-    System.out.print("Bubble sort: ");
+    System.out.print("Selection sort: ");
     Timer.printElapsedTime();
 
     Timer.start();
